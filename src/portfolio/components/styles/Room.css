@@ -1,0 +1,14 @@
+.room-section{position:relative;width:var(--cWidth,90%);max-width:var(--cMaxWidth,1920px);margin:80px auto;box-sizing:border-box}
+.room-head h2{font-size:70px;font-weight:500;margin:0}
+.room-head h2 span{color:var(--accentColor)}
+.room-head p{opacity:.75;max-width:620px;margin:12px 0 28px}
+.room-stage{position:relative;height:80vh;min-height:480px;border-radius:24px;overflow:hidden;background:#e8e4f0;border:1px solid rgba(255,255,255,.12);transition:background .6s}
+.room-dark .room-stage{background:#111018}
+.room-canvas{width:100%;height:100%;display:block;cursor:grab;touch-action:pan-y}
+.room-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#333;font-size:18px}
+.room-controls{position:absolute;left:20px;bottom:20px;display:flex;gap:10px}
+.room-controls button,.room-choice button,.room-choice a{background:#0b080c;color:#fff;border:1px solid var(--accentColor);border-radius:999px;padding:10px 20px;font-size:15px;cursor:pointer;text-decoration:none}
+.room-choice{position:absolute;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center}
+.room-choice>div{background:#0b080c;color:#fff;padding:28px;border-radius:18px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:360px}
+.room-choice p{width:100%;text-align:center;margin:0 0 8px}
+@media (max-width:768px){.room-head h2{font-size:42px}.room-stage{height:65vh;min-height:380px}}
