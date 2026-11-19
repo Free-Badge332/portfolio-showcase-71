@@ -34,4 +34,4 @@ use the editor.
 - Preserve the target project's pinned TanStack dependencies and runtime bootstrap when importing source code to retain compatibility with Lovable hosting.
 - Keep the source portfolio stylesheet separate from the shared Tailwind theme and omit Tailwind preflight to preserve the imported site's original layout.
 - Keep service content in normal document flow and independent of character-loading or reveal animations so descriptions and skills remain readable on every device.
-- Show the 3D room from the second portfolio as its own section (RoomSection) and start it only when scrolled near, so it does not slow the first load.
+- The 3D room (RoomHome) is the full-screen home page at /; the full character portfolio lives at /portfolio and is reached from the room menu.
