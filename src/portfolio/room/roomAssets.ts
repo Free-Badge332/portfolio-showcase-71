@@ -1,15 +1,15 @@
-import model from "@/assets/room/room.glb.asset.json";
-import titleFont from "@/assets/room/room-font-title.json.asset.json";
-import subtitleFont from "@/assets/room/room-font-subtitle.json.asset.json";
-import screenVideo from "@/assets/room/room-screen.mp4.asset.json";
-import bookInner from "@/assets/room/room-book.jpg.asset.json";
-import logo from "@/assets/room/room-logo.png.asset.json";
-import adminAndMobile from "@/assets/room/room-adminandmobile.jpg.asset.json";
-import proshop from "@/assets/room/room-proshop.png.asset.json";
-import myTeachers from "@/assets/room/room-project-myteachers.gif.asset.json";
-import wholesale from "@/assets/room/room-project-wholesale.jpg.asset.json";
-import chatApp from "@/assets/room/room-chatApp.jpg.asset.json";
-import audio from "@/assets/room/room-audio.png.asset.json";
+const model = { url: "/room/room.glb" };
+const titleFont = { url: "/room/unione.json" };
+const subtitleFont = { url: "/room/helvatica.json" };
+const screenVideo = { url: "/room/arcane.mp4" };
+const bookInner = { url: "/room/book-inner.jpg" };
+const logo = { url: "/room/logo.png" };
+const adminAndMobile = { url: "/room/adminandmobile.jpg" };
+const proshop = { url: "/room/proshop.png" };
+const myTeachers = { url: "/room/project-myteachers.webp" };
+const wholesale = { url: "/room/project-wholesale.jpg" };
+const chatApp = { url: "/room/chatApp.jpg" };
+const audio = { url: "/room/audio.png" };
 
 export const roomAssets = {
   model: model.url,
